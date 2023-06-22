@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Website</title>
+    <!-- <----Custom Css Link----->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav >
+        <div class="container nav-container">
+           <button class="phone-menu open">
+            <img src="img/download-removebg-preview.png" alt="">
+           </button>
+
+           <button class="phone-menu close">
+            <img src="img/image-removebg-preview.png" alt="">
+           </button>
+
+            <div class="nav-left">
+                <a href=""><h3>GlobalTalk</h3></a>
+                <ul class="nav-link">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Textbook">Textbook</a></li>
+                    <li><a href="#Statistics">Statistics</a></li>
+                    <li><a href="#Games">Games</a></li>
+                </ul>
+            
+            </div>
+            <div class="nav-right">
+                <a href="" class="profile">
+                    <span>A</span>
+                    <span>Alex</span>
+                </a>
+                <a href="btn" ><h5>Sign Out →</h5> </a>
+            </div>
+        </div>
+    </nav>
+<!-------Start Header----- -->
+
+<header id="home">
+<div class="container header-container">
+    <div class="header-right">
+            <h5>E-COURSE PLATFORM</h5>
+            <h1>Learning and 
+                teaching online,
+                made <br>easy.
+            </h1>
+            <p>
+                Practice your English and learn 
+            </p>
+
+            <a href="" class="btn">About Platform  →</a>
+        <div class="header-right-bottom">
+                <div>
+                <div class="btmc">
+                    <h2>600 <span>+</span></h2>
+                </div>
+                <p>Popular words</p>
+                </div>
+            
+                <div>
+                <div class="btmc">
+                    <h2>2<span>+</span></h2>
+                </div>
+                <p>Mini Games</p>
+                </div>
+        </div>
+     </div>   
+        <div class="header-left">
+            <!-- <img class="under" src="img/image 12.png" alt=""> -->
+            <img class="under" src="img/hero.png" alt="">
+           
+        </div>
+     
+        
+</div>
+</header>
+
+
+<!-- ----Playful----- -->
+<section class="playful">
+    <div class="container playful-container">
+        <div class="playful-left">
+            <img src="img/lang.png" alt="">
+        </div>
+        <div class="playful-right">
+            <h2>Learn a language in a<br> playful way</h2>
+            <p>Make learning words more fun with mini-games</p>
+            <div class="playful-action-aria">
+                <a href=""><img src="img/show.png" alt=""></a>
+                <a href=""><img src="img/mc.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----Vocab------->
+<section id="vocab">
+    <div class="container vocab-container">
+        <div class="vocab-left">
+            <h2>
+                Increase your<br>vocabulary
+            </h2>
+            <p>
+                Traditional and new effective approaches to word study.
+            </p>
+            <a href="" class="btn">Textbook →</a>
+        </div>
+
+        <div class="vocab-right">
+            <img src="img/voca.png" alt="">
+
+        </div>
+    </div>
+</section>
+<!-----Progress------->
+<section id="progress">
+    <div class="container progress-container">
+        <div class="progress-left"><img src="img/progg.png" alt=""></div>
+        <div class="progress-right">
+            <h2>
+                Watch your<br> progress every<br>day
+            </h2>
+            <p>
+                Save statistics on your achievements,words<br>learned, and mistakes
+            </p>
+            <a href="" class="btn">Statistics →</a>
+        </div>
+    </div>
+</section>
+<!-----Footer------->
+<footer>
+    <div class="container footer-container">
+        <div class="footer-top">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Textbook">Textbooks</a></li>
+                <li><a href="#Statistics">Statistics</a></li>
+                <li><a href="#Home">Sprint</a></li>
+                <li><a href="#Audiocall">Audio Call</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Global Talk</a></li>
+                <li><a href="#">Lana White</a></li>
+                <li><a href="#">Any Marks</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+
+            <div>
+                &copy;2023 GlobalTalk.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let Nav=document.querySelector('nav');
+    
+    window.addEventListener('scroll',()=>{
+        Nav.classList.toggle('nav-bg',window.scrollY>0);
+    })
+</script>
+
+
+</body>
+</html>
